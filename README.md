@@ -1,6 +1,6 @@
 ## 💻 Projeto Feed
 
-Esse projeto foi desenvolvido para trenar as minhas habilidades técnicas. Trata-se de um projeto frontend, o projeto consiste na parte frontend(React) em uma landing page de feed para rede social com as funcionalidades de criar uma publicação, comentar em uma publicar, deletar um comentário em uma publicação e Curtir uma publicação.
+Esse projeto foi desenvolvido para trenar as minhas habilidades técnicas. Trata-se de um projeto frontend, o projeto consiste na parte frontend(React) em uma landing page de feed para rede social com as funcionalidades de criar uma publicação, comentar em uma publicar, deletar um comentário em uma publicação e Curtir um comentário em uma publicação.
 
 ## 🎨 Layout
 
