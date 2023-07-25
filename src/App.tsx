@@ -1,7 +1,21 @@
+import { Header } from "./components/Header/Header";
+import { Sidebar } from "./components/Sidbar/Sidbar";
+import { Post } from "./components/Post/Post";
+import "./styles/global.css";
+import styles from "./App.module.css";
+
 function App() {
   return (
     <>
-      <h1>Feed</h1>
+      <Header />
+
+      <div className={styles.wrapper}>
+        <Sidebar />
+        <main>
+          <Post />
+          <Post />
+        </main>
+      </div>
     </>
   );
 }
