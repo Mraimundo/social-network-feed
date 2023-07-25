@@ -1,27 +1,45 @@
-# React + TypeScript + Vite
+## 💻 Projeto Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto foi desenvolvido para trenar as minhas habilidades técnicas. Trata-se de um projeto frontend, o projeto consiste na parte frontend(React) em uma landing page de feed para rede social com as funcionalidades de criar uma publicação, comentar em uma publicar, deletar um comentário em uma publicação e Curtir uma publicação.
 
-Currently, two official plugins are available:
+## 🎨 Layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![feed](https://github.com/Mraimundo/test-proteina-digital/assets/53385345/ce546ecf-006c-4a8a-a3df-6a7e47b8812b)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Endpoint:
 
-- Configure the top-level `parserOptions` property like this:
+ EndPoint usando no projeto: [https://api.github.com/repositories](https://platform.openai.com/account/api-keys)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## 🥉: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Vite](https://vitejs.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+  
+## :notebook: Executando
+
+O **README** mostra como executar as aplicação.
+
+```bash
+# Clone este repositório
+$ git clone git@github.com:Mraimundo/social-network-feed.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd feed
+
+Como o projeto foi criado com o NExt, portanto depois de clonar o repositório digite em seu terminal:
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm run dev
+
+$ em seguida localhost:3000 em seu navegador.
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Feito com horas em frente ao :computer: por [Mouzinho Raimundo](https://www.linkedin.com/in/mouzinho-raimundo/)
+
